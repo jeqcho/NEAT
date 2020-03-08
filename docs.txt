@@ -1,0 +1,64 @@
+neural_network_lab.py
+
+Node
+    Class definition
+    Attributes
+        state
+        id
+        specialty
+            String
+            Possible values:
+                control
+                sensory
+                inter
+                effector
+        fired
+            Boolean
+        activate_id
+            Value determines the function to process data
+            Eg: relu
+
+
+Synapse
+    Class definition
+    Attributes
+        id
+        weight
+        from_node
+        to_node
+
+Network
+    Class definition
+    Attributes
+        network_id
+        node_genes
+            Dictionary
+            Key:
+                node id (int)
+            Value:
+                node (Node object)
+        from_nodes
+        to_nodes
+        effector_nodes
+        sensory_nodes
+            List
+            Elements:
+                node_id (int)
+        control_nodes
+            List
+            Elements:
+                node_id (int)
+        synapse_genes
+            Dictionary
+            Key:
+                to_node id (int)
+            Value:
+                List
+                The synapse objects that connects the to_node specified by the key
+                Elements:
+                    synapse (Synapse object)
+        next_node_id
+        next_synapse_id
+        ranking
+    Functions
+        think

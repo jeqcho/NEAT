@@ -1,0 +1,54 @@
+V6
+- Basic features complete
+- Suggest to add synapse/node-editing mutations
+- Alternative is to train using a single food and infinite eyesight
+
+V7
+- Disabled metabolism
+- Disabled bounce
+- Fixed bug to reset node states
+- Change sense from [food_presence, dist_to_food, angle_to_food] to [food_presence, dis_x, dis_y]
+- Made mutations independent
+- Upgraded thinking mechanism
+- Added documentation
+
+V8
+- Added synapse editing mutation
+- Added synapse removing mutation
+- Added proper node implantation
+- Added node removing mutation
+- Added mutation history
+
+V9
+- Made number of sensory and effector nodes a variable
+- Commented out control nodes
+- Added constants to node activation functions
+- Commented out food regeneration
+- Test every network on the same initial conditions (food position and blocky coordinates)
+
+V10
+- Build synapse mutation will not have looping chance to find suitable node pair, but instead have only one chance
+- Removed unnecessary node-lists of network
+- Removed constants in node activation functions
+- Removed remove node mutation
+- Changed remove synapse to disable synapse
+- Added species and compatibility checks
+
+V11
+- Added mating
+- Added speciation (protecting species)
+- Code optimisation
+- Population maintenance
+- Introduced global innovation number
+
+SUGGESTIONS:
+- Add distance to wall sense
+- Add memory nodes
+- Add more penalty to blocked
+-- eg: time/health penalty
+- Spawn less food
+- Add 8-directional sense
+- Add proper population ranges (around 200)
+- Add proper UI
+- Show the best of each species
+- Museum to store every known species to exist
