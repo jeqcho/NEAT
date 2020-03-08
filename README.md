@@ -1,5 +1,6 @@
 # homemade_neural_network
 There are 3 main parts in the repositry.
+
 Part 1: visualistion_lab.py
 This module uses Pygame to allow visualisation of the performance of the network in various scenarios.
 
