@@ -18,4 +18,5 @@ https://drive.google.com/file/d/1poSh1_VAPzkwVnQ3ImqzWIEQbBY8FGRh/view?usp=shari
 
 ## Applications ##
 Repositries using this implementation:
-https://github.com/jeqinchooi/Stereophonic-hearing
+
+1. https://github.com/jeqinchooi/Stereophonic-hearing
