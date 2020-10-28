@@ -1,8 +1,8 @@
-# homemade_neural_network
-There are 3 main parts in the repository.
+# Implementation of NEAT
+This repository implements the NEAT algorithm developed by Kenneth O. Stanley and Risto Miikkulainen from the University of Texas. There are 3 main parts in the repository.
 
 ## Part 1: visualistion_lab.py ##
-This module uses Pygame to allow visualisation of the performance of the network in various scenarios.
+This module uses Pygame to allow visualisation of the performance of the network in various scenarios. The default version visualises a gatherer learning optimum resource acquirement.
 
 ## Part 2: neural_netwrok_lab.py ##
 This is the core of the project. Implementation of NEAT.
