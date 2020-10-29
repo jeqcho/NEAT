@@ -5,7 +5,7 @@ The project also provides visualisation of the best performing network in each g
 ![NEAT snapshot](https://chojeq.com/home/img/NEAT.png)
 
 Here is a video demonstration of Generation 227 and Generation 228:
-![NEAT demonstration](https://drive.google.com/file/d/1poSh1_VAPzkwVnQ3ImqzWIEQbBY8FGRh/view?usp=sharing)
+[NEAT demonstration](https://drive.google.com/file/d/1poSh1_VAPzkwVnQ3ImqzWIEQbBY8FGRh/view?usp=sharing)
 
 
 ## Getting Started
