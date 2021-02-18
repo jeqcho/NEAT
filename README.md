@@ -43,7 +43,7 @@ Then, you should change some of the variables in integrate_lab.py. For example,
 
 ## Contributing
 
-You can email me at chooijqweb@gmail.com regarding the future of this project.
+You can contact me regarding the future of this project.
 
 ## Versioning
 
